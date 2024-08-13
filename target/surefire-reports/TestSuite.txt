@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 4, Time elapsed: 12.526 s <<< FAILURE! - in TestSuite
+preCondition(com.leaftaps.testcases.TC002_CreateLead)  Time elapsed: 12.098 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "com.framework.selenium.api.base.SeleniumBase.getDriver()" is null
+
+preCondition(com.leaftaps.testcases.TC001_VerifyLogin)  Time elapsed: 12.1 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(org.openqa.selenium.OutputType)" because the return value of "com.framework.selenium.api.base.SeleniumBase.getDriver()" is null
+
